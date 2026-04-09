@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_drawer_coffee"
+            android:icon="@drawable/ic_cat_coffee"
+            android:title="@string/category_coffee" />
+        <item
+            android:id="@+id/nav_drawer_restaurants"
+            android:icon="@drawable/ic_cat_restaurant"
+            android:title="@string/category_restaurants" />
+        <item
+            android:id="@+id/nav_drawer_kids"
+            android:icon="@drawable/ic_cat_kids"
+            android:title="@string/category_kids" />
+        <item
+            android:id="@+id/nav_drawer_parks"
+            android:icon="@drawable/ic_cat_park"
+            android:title="@string/category_parks" />
+        <item
+            android:id="@+id/nav_drawer_malls"
+            android:icon="@drawable/ic_cat_mall"
+            android:title="@string/category_malls" />
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/aboutFragment"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="@string/nav_settings" />
+    </group>
+</menu>

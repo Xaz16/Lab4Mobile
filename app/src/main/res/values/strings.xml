@@ -1,3 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LB4</string>
+    <string name="app_name">Город: Санкт-Петербург</string>
+
+    <string name="nav_drawer_title">Разделы</string>
+    <string name="nav_drawer_subtitle">Санкт-Петербург</string>
+    <string name="category_coffee">Кофейни</string>
+    <string name="category_restaurants">Рестораны</string>
+    <string name="category_kids">Места для детей</string>
+    <string name="category_parks">Парки и природа</string>
+    <string name="category_malls">Торговые центры</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="tab_home">Главная</string>
+    <string name="tab_cities">Районы</string>
+    <string name="tab_picks">Подборки</string>
+    <string name="tab_tips">Советы</string>
+
+    <string name="screen_home">Главная</string>
+    <string name="screen_cities">Районы Петербурга</string>
+    <string name="screen_city_detail">Район</string>
+    <string name="screen_picks">Подборки</string>
+    <string name="screen_pick_detail">Подборка</string>
+    <string name="screen_tips">Советы путешественнику</string>
+    <string name="screen_tip_detail">Совет</string>
+    <string name="screen_category">Категория</string>
+    <string name="screen_recommendation">Место</string>
+    <string name="screen_about">О приложении</string>
+    <string name="screen_settings">Настройки</string>
+
+    <string name="home_headline">Откройте Санкт-Петербург</string>
+    <string name="home_body">Выберите район на вкладке «Районы», загляните в «Подборки» или откройте боковое меню, чтобы перейти к кофейням, ресторанам, паркам и другим категориям.</string>
+    <string name="home_card_cities_title">Районы и части города</string>
+    <string name="home_card_cities_text">Краткие справки о пяти крупных зонах в черте Петербурга.</string>
+    <string name="home_card_drawer_title">Категории в меню</string>
+    <string name="home_card_drawer_text">Пять тематических списков с идеями для прогулок и отдыха.</string>
+
+    <string name="picks_intro">Пять городских маршрутов, которые удобно сочетать в одной поездке по Петербургу.</string>
+    <string name="pick_linked_places_header">Места из приложения</string>
+    <string name="pick_vyborg_title">Набережные Невы и Дворцовая</string>
+    <string name="pick_vyborg_desc">Дворцовая площадь, Зимний дворец, стрелка Васильевского острова и прогулка вдоль Невы.</string>
+    <string name="pick_vyborg_detail">Маршрут по сердцу города: Дворцовая набережная, Зимний дворец и прогулка вдоль Невы к стрелке Васильевского острова. Удобно совмещать осмотр дворцовых садов с обедом или ужином с панорамой центра. Ниже — карточки мест из категорий приложения, которые логично вплести в этот день; нажмите, чтобы открыть описание и фото.</string>
+    <string name="pick_ladoga_title">Музейный кластер центра</string>
+    <string name="pick_ladoga_desc">Эрмитаж, Русский музей, Михайловский сад и дворцы в пешей доступности друг от друга.</string>
+    <string name="pick_ladoga_detail">Компактный пешеходный квартал: Эрмитаж, Русский музей, Михайловский сад и дворцы в шаговой доступности. Заложите полдня на музеи и перерывы в садах. Связанные ниже места — интерактивные музеи для детей и зелёные зоны из списков приложения; переход по нажатию ведёт на экран рекомендации.</string>
+    <string name="pick_gatchina_title">Петропавловка и Петроградка</string>
+    <string name="pick_gatchina_desc">Крепость на Заячьем острове, музеи и уютные улицы Петроградской стороны.</string>
+    <string name="pick_gatchina_detail">День на Петроградской стороне: Петропавловская крепость, музеи и спокойные переулки у Петроградской набережной. Хорошо сочетается с кофейнями specialty и неспешными завтраками. В списке ниже — пять кофеен из раздела «Кофейни»; каждая открывает полную карточку места.</string>
+    <string name="pick_pushkin_title">Васильевский остров</string>
+    <string name="pick_pushkin_desc">Университетская набережная, Стрелка, мосты и виды на строгий классический ансамбль.</string>
+    <string name="pick_pushkin_detail">Университетская набережная, Стрелка, разводные мосты и виды на строгий ансамбль классицизма. Удобно планировать прогулку от Стрелки к Ботаническому саду и Таврическому саду. Ниже — рестораны, парки и ТРК из приложения, привязанные к этому маршруту; нажмите строку, чтобы перейти к деталям.</string>
+    <string name="pick_sosnovy_title">К Финскому заливу</string>
+    <string name="pick_sosnovy_desc">Приморский район: парк 300-летия, набережные, Крестовский остров и свежий ветер с залива.</string>
+    <string name="pick_sosnovy_detail">Север Петербурга: парк 300-летия, набережные залива, Крестовский остров и современные торговые кластеры. Подходит для семейного дня, шопинга и прогулок на велосипеде. Связанные места — крупные ТРК, парк и развлечения для детей из соответствующих категорий приложения.</string>
+
+    <string name="tips_intro">Практические заметки перед прогулками по Санкт-Петербургу.</string>
+    <string name="tip_transport_title">Транспорт</string>
+    <string name="tip_transport_desc">Метро, трамваи и автобусы покрывают весь город; ночью проверяйте график разводки мостов и ограничения проезда по центру.</string>
+    <string name="tip_weather_title">Погода</string>
+    <string name="tip_weather_desc">С Невы и залива часто дует сильнее, чем во дворах; даже летом возьмите лёгкую куртку или шарф и зонт.</string>
+    <string name="tip_nature_title">Парки и вода</string>
+    <string name="tip_nature_desc">В городских парках держитесь дорожек; выход на лёд Невы и каналов возможен только при официально объявлённой безопасности.</string>
+    <string name="tip_ticket_title">Музеи</string>
+    <string name="tip_ticket_desc">В высокий сезон бронируйте билеты онлайн и приходите к открытию, чтобы меньше стоять в очередях к кассам.</string>
+
+    <string name="city_spb_name">Исторический центр</string>
+    <string name="city_spb_desc">Дворцовая набережная, Невский проспект, Эрмитаж и главные площади: сердце Петербурга в пешей доступности.</string>
+    <string name="city_vyborg_name">Петроградская сторона</string>
+    <string name="city_vyborg_desc">Петропавловская крепость, Кунсткамера, Петроградка и тихие дворы у Петроградской набережной.</string>
+    <string name="city_gatchina_name">Васильевский остров</string>
+    <string name="city_gatchina_desc">Стрелка, Старый и Новый Гостиный дворы, набережные с гранитными спусками и Европейский университет.</string>
+    <string name="city_pushkin_name">Коломна и Адмиралтейство</string>
+    <string name="city_pushkin_desc">Исаакиевский собор, Мариинский театр, каналы и переулки между Сенной и Адмиралтейством.</string>
+    <string name="city_sosnovy_name">Приморский район</string>
+    <string name="city_sosnovy_desc">Парк 300-летия, набережные Финского залива, Крестовский остров и современный силуэт северной части города.</string>
+
+    <string name="coffee_1_title">«Больше кофе»</string>
+    <string name="coffee_1_desc">Первая точка сети в каменном гроте Александровского парка у метро «Горьковская»: спешелти, фильтр и дрипы, выпечка.</string>
+    <string name="coffee_2_title">Sibaristica Coffee Roasters</string>
+    <string name="coffee_2_desc">Пространство в бывшем винном складе на набережной Обводного канала: обжарка, школа бариста, завтраки и вид из окон.</string>
+    <string name="coffee_3_title">«Смена»</string>
+    <string name="coffee_3_desc">Кофейня у «Площади Восстания» в скандинавском стиле: спешелти, бранчи по выходным и без Wi‑Fi ради живого общения.</string>
+    <string name="coffee_4_title">Aster</string>
+    <string name="coffee_4_desc">На Маяковского, 23: сочетание корейских кофеен и датских пекарен, брю-бар и собственная выпечка.</string>
+    <string name="coffee_5_title">«Щегол»</string>
+    <string name="coffee_5_desc">У Радищева: своя обжарка, классика и авторский раф, выходные спешлы с выпечкой.</string>
+
+    <string name="rest_1_title">Sea, Signora</string>
+    <string name="rest_1_desc">Рыбный ресторан на Большой Морской, 30: открытая кухня, аквариум, кухня на стыке итальянской и еврейской традиций.</string>
+    <string name="rest_2_title">«Блок»</string>
+    <string name="rest_2_desc">Мясной ресторан на крыше «Ленинград Центра» (Потемкинская, 4): стейки и панорама на Таврический сад.</string>
+    <string name="rest_3_title">Duo Asia</string>
+    <string name="rest_3_desc">Паназиатская кухня на Рубинштейна, 20: открытая кухня и доступный средний чек.</string>
+    <string name="rest_4_title">«Мансарда»</string>
+    <string name="rest_4_desc">Ресторан на Почтамтской с видом на Исаакиевский собор: европейские и азиатские блюда, винная карта.</string>
+    <string name="rest_5_title">Terrassa</string>
+    <string name="rest_5_desc">Терраса на Казанской, 3А: виды на Казанский собор, Спас на Крови и Дом Зингера; кухни разных стран.</string>
+
+    <string name="kids_1_title">МАФ • Музей Арт и Факты</string>
+    <string name="kids_1_desc">Интерактивный музей на наб. Обводного канала, 118С: более 100 экспонатов, метеорит, робот; билеты от 590 ₽.</string>
+    <string name="kids_2_title">Сказочный музей «Небылица-Моряница»</string>
+    <string name="kids_2_desc">Мультимедийный музей на Декабристов, 37 про морских героев и загадки; билеты 700–1500 ₽.</string>
+    <string name="kids_3_title">Музей криптозоологии «Бестиарий»</string>
+    <string name="kids_3_desc">В ТРК «Гранд Каньон», пр. Энгельса, 154: фэнтези-экспозиции и мультимедиа; от 700 ₽.</string>
+    <string name="kids_4_title">Кондитерская фабрика имени Самойловой</string>
+    <string name="kids_4_desc">Экскурсия по фабрике на Английском проспекте, 18: цеха, дегустации и подарок сладостей; нужна запись.</string>
+    <string name="kids_5_title">Музей инопланетной жизни «Галакториум»</string>
+    <string name="kids_5_desc">На Ветеранов, 169 к4: интерактивные зоны про космос и игровая для детей; от 400 ₽.</string>
+
+    <string name="park_1_title">Летний сад</string>
+    <string name="park_1_desc">Регулярный парк Петра I между Невой, Фонтанкой и Мойкой: мраморные скульптуры, аллеи и ограда.</string>
+    <string name="park_2_title">Михайловский сад</string>
+    <string name="park_2_desc">Камерный сад у Мойки с прудами и видами на Спас на Крови и Михайловский замок.</string>
+    <string name="park_3_title">Таврический сад</string>
+    <string name="park_3_desc">Аллеи и большой пруд на Потемкинской; оранжерея и памятники культурным героям.</string>
+    <string name="park_4_title">Ботанический сад Петра Великого</string>
+    <string name="park_4_desc">На Профессора Попова, 2: коллекции растений и оранжереи (тропики, субтропики, водные).</string>
+    <string name="park_5_title">Александровский сад</string>
+    <string name="park_5_desc">Сад на Адмиралтейском проспекте с видом на Неву, Исаакий и Медного всадника.</string>
+
+    <string name="mall_1_title">ТРК «Галерея»</string>
+    <string name="mall_1_desc">Крупный комплекс на Лиговском проспекте: сотни магазинов, кино и фудкорт.</string>
+    <string name="mall_2_title">«МЕГА Дыбенко»</string>
+    <string name="mall_2_desc">Торговый центр на Мурманском шоссе: гипермаркеты, кино и развлечения для семьи.</string>
+    <string name="mall_3_title">«Жемчужная Плаза»</string>
+    <string name="mall_3_desc">ТРК на Петергофском шоссе: магазины, IMAX и зоны для детей.</string>
+    <string name="mall_4_title">«Питерлэнд»</string>
+    <string name="mall_4_desc">Комплекс у Финского залива: шопинг, аквапарк и активные развлечения.</string>
+    <string name="mall_5_title">ТРК «Радуга»</string>
+    <string name="mall_5_desc">Торговый центр на проспекте Космонавтов: магазины и сервисы для района.</string>
+
+    <string name="about_title">О приложении</string>
+    <string name="about_body">Учебный проект «Город» для курса разработки мобильных приложений. Тема — Санкт-Петербург. Подборки ведут к тем же карточкам мест, что и разделы в меню. Контент иллюстративный: перед визитом проверяйте адреса, цены и режим работы у заведений.</string>
+    <string name="about_version_label">Версия</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_body">Настройки приложения. Отдельные функции будут добавлены в следующих версиях.</string>
+
+    <string name="content_cd_icon">Иконка категории</string>
+    <string name="content_cd_place_photo">Фото места</string>
+    <string name="action_open_menu">Открыть меню</string>
+    <string name="action_back">Назад</string>
+    <string name="list_empty">Список пуст</string>
 </resources>

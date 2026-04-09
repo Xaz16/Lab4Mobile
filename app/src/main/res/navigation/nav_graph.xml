@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="edu.istu.achipiga.lb4.ui.home.HomeFragment"
+        android:label="@string/screen_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="edu.istu.achipiga.lb4.ui.cities.CitiesFragment"
+        android:label="@string/screen_cities"
+        tools:layout="@layout/fragment_cities">
+        <action
+            android:id="@+id/action_cities_to_cityDetail"
+            app:destination="@id/cityDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityDetailFragment"
+        android:name="edu.istu.achipiga.lb4.ui.cities.CityDetailFragment"
+        android:label="@string/screen_city_detail"
+        tools:layout="@layout/fragment_city_detail">
+        <argument
+            android:name="cityId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/picksFragment"
+        android:name="edu.istu.achipiga.lb4.ui.picks.PicksFragment"
+        android:label="@string/screen_picks"
+        tools:layout="@layout/fragment_picks">
+        <action
+            android:id="@+id/action_picks_to_pickDetail"
+            app:destination="@id/pickDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pickDetailFragment"
+        android:name="edu.istu.achipiga.lb4.ui.picks.PickDetailFragment"
+        android:label="@string/screen_pick_detail"
+        tools:layout="@layout/fragment_pick_detail">
+        <argument
+            android:name="pickIndex"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_pickDetail_to_recommendationDetail"
+            app:destination="@id/recommendationDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="edu.istu.achipiga.lb4.ui.tips.TipsFragment"
+        android:label="@string/screen_tips"
+        tools:layout="@layout/fragment_tips">
+        <action
+            android:id="@+id/action_tips_to_tipDetail"
+            app:destination="@id/tipDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tipDetailFragment"
+        android:name="edu.istu.achipiga.lb4.ui.tips.TipDetailFragment"
+        android:label="@string/screen_tip_detail"
+        tools:layout="@layout/fragment_tip_detail">
+        <argument
+            android:name="tipIndex"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryRecommendationsFragment"
+        android:name="edu.istu.achipiga.lb4.ui.category.CategoryRecommendationsFragment"
+        android:label="@string/screen_category"
+        tools:layout="@layout/fragment_category_recommendations">
+        <argument
+            android:name="categoryId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_category_to_recommendationDetail"
+            app:destination="@id/recommendationDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recommendationDetailFragment"
+        android:name="edu.istu.achipiga.lb4.ui.category.RecommendationDetailFragment"
+        android:label="@string/screen_recommendation"
+        tools:layout="@layout/fragment_recommendation_detail">
+        <argument
+            android:name="recommendationId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="edu.istu.achipiga.lb4.ui.info.AboutFragment"
+        android:label="@string/screen_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="edu.istu.achipiga.lb4.ui.info.SettingsFragment"
+        android:label="@string/screen_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
